@@ -1,0 +1,20 @@
+.stripe{
+    height: 50px;
+    width: 100%;
+}
+#black{
+    background-color:black;
+}
+#red{
+    background-color:red;
+}
+#gold{
+    background-color:gold;
+}
+#flag{
+    height: 200px;
+    width: 200px;
+}
+*{
+    display:block;
+}
