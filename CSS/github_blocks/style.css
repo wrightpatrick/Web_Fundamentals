@@ -10,6 +10,7 @@ align-self: center;
 display:flex;
 flex-wrap: wrap;
 background-color:lightgrey;
+padding: 30px;
 }
 
 h1{
