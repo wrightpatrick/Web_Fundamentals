@@ -1,0 +1,42 @@
+*{
+    background-color:whitesmoke;
+    margin:0px auto;
+}
+
+#container{
+    height: 300px;
+    margin:100px 20px;
+}
+
+.button{
+    height:75px;
+    width:300px;
+    border:gold;
+    border-width:2px;
+    display:block
+
+}
+
+#search{
+    background-color:whitesmoke;
+    outline-width: 1px;
+    color:teal;
+    border-color:teal;
+    border-radius: 40%;
+}
+
+#plus{
+    background-color:teal;
+    border-radius: 50%;
+    outline-width:1px;
+    font-size:18px;
+    color:white;
+
+}
+
+#create{
+    background-color:rgb(99, 28, 231);
+    outline-width: 4px;
+    box-shadow: 10px;
+    color: white;
+}
