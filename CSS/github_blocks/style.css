@@ -1,0 +1,48 @@
+*{
+    margin:0px auto;
+    padding:0;
+}
+
+#container{
+height:900px;
+width:900px;
+align-self: center;
+display:flex;
+flex-wrap: wrap;
+background-color:lightgrey;
+}
+
+h1{
+    text-align:center;
+}
+
+img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#blue{
+    background-color:lightblue;
+    height:250px;
+}
+
+#pink{
+    background-color:lightpink;
+    height:250px;
+}
+
+#white{
+    background-color:whitesmoke;
+    height:250px;
+}
+
+.row{
+    display:block;
+    width:900px;
+}
+
+div >.row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
