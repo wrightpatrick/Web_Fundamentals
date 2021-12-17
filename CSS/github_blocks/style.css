@@ -30,6 +30,9 @@ img{
 #pink{
     background-color:lightpink;
     height:250px;
+    display:flex;
+    padding: 0px 50px;
+    margin: 0px auto;
 }
 
 #white{
