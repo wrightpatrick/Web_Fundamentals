@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    height:600px;
+    width: 800px;
+    background-color:grey;
+    margin: 0 auto;
+}
