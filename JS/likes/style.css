@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Neue', cursive;
+}
+
+#container{
+    width: 40%;
+    /* background-color: aquamarine; */
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#topLine{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+#bottomLine{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
