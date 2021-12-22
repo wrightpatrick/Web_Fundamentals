@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@100&display=swap');
+        </style>
+</head>
+<body>
+    <div id="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button id="loginButton" onclick="logOut(this)">Login</button>
+            
+    </div>
+
+    <div id="container">
+        <div class="definition">
+            <div class="leftBox">
+                <h1>ninja</h1>
+                <h3>noun</h3>
+                <h3>Plural: ninjas</h3>
+                <button onclick="alert('You have liked this ninja')">13 likes</button>
+            </div>
+
+            <div class="rightBox">
+                <h2>A practicioner skilled in the <span>Japanese</span> art of <span>ninjitsu</span></h2>
+
+            </div>
+
+
+
+        </div>
+        <div id="addDefinition">
+            <h1>Dojonary is<br>defined by <bold>YOU</bold></h1>
+            <button id="definitionButton" onclick="sendDef(this)">Add Definition</button>
+
+        </div>
+        <div class="definition">
+            <div class="leftBox">
+                <h1>ninja</h1>
+                <h3>noun</h3>
+                <h3>Plural: ninjas</h3>
+                <button onclick="alert('You have liked this ninja')">37 likes</button>
+            </div>
+
+            <div class="rightBox">
+                <h2>A <span>Programmer</span> who breaks down problems with <span>zen</span>-like focus</h2>
+
+            </div>
+            
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
